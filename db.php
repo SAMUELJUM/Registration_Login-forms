@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $db = 'user_auth';
-$user = 'root'; // Change this to your database username
-$pass = '';     // Change this to your database password
+$user = 'root'; 
+$pass = '';     
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
